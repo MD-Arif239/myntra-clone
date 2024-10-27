@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Dscount ticket</title>
+</head>
+<body>
+    <script>
+        let age = 7;
+        let gender = 'male';
+        let FinalDiscount ;
+
+        if ( age <= 5){
+            FinalDiscount = 100;
+        } else if (gender === 'female' ||  age <= 8 ) {
+            FinalDiscount = 50;
+        } else if ( age >= 65){
+            FinalDiscount = 30;
+        } else {
+            FinalDiscount = 0;
+        }
+        console.log(`ur final discount is ${FinalDiscount}`)
+
+
+    </script>
+    
+</body>
+</html>
